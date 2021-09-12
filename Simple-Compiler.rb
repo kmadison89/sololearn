@@ -1,13 +1,19 @@
 =begin
-    The goal here is to build a very simple compiler, for a very simple language. We will have very simple constructs for now like def f(x,y) add(42, add(x,y)) end, which says in English, define a function f that takes 2 arguments (x,y) and returns the return value of add(42, add(x, y)). This could easily be much more complex, but I wanted to keep things simple for high level understanding. Feel free to expand on this in your own languages 😉
+    The goal here is to build a very simple compiler, for a very simple language. 
+    We will have very simple constructs for now like def f(x,y) add(42, add(x,y)) end,
+    which says in English, define a function f that takes 2 arguments (x,y) and returns 
+    the return value of add(42, add(x, y)). This could easily be much more complex, but 
+    I wanted to keep things simple for high level understanding. Feel free to expand on 
+    this in your own languages 😉
+    This code will consist of 3 main components: a lexer (or tokenizer), a parser, and 
+    a code generator.
     
-    This code will consist of 3 main components: a lexer (or tokenizer), a parser, and a code generator.
-    
-    Note that this code does NOT use the most efficient practices for compiler building, but rather the simplest approach for understanding purposes. 
-    
+    Note that this code does NOT use the most efficient practices for compiler building, 
+    but rather the simplest approach for understanding purposes. 
     The simple version of this compiles the code down to python. feel free to test it! 😎
     
-    While I do work in the system field, compiler design is not my area of expertise, and I referred to a number of written sources to put this together.
+    While I do work in the system field, compiler design is not my area of expertise, 
+    and I referred to a number of written sources to put this together.
     
     @uthor: Ace
     Bugs: None known
